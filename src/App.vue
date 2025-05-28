@@ -571,6 +571,9 @@ const perPersonCost = computed(() => {
 });
 
 function loadDefaultData() {
+    newTripName.value = "Kaptai 2025";
+    createNewTrip();
+
     people.value = [...defaultPeople];
     expenses.value = [...defaultExpenses];
 }
