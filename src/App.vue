@@ -683,12 +683,12 @@ function importData(event: Event) {
           ]"
         >
           {{ trip.name }}
-          <button 
+          <span 
             @click.stop="deleteTrip(trip.id)"
             class="ml-2 text-red-500 hover:text-red-700"
           >
             ×
-          </button>
+          </span>
         </button>
       </div>
     </div>
